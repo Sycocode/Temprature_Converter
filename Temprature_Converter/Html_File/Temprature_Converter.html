@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Converter</title>
+    <link rel="stylesheet" href="../CSS_File/TCcss.css">
+</head>
+<body>
+
+    <!-- Main Div Wrapper Start-->
+
+     <div class="main-div">
+        <div class="design">
+            <h3>Enter Temprature</h3>
+            <h4>Degree</h4>
+            <form>
+                <input class="number" id="number"type="number" placeholder="0" />
+                <select class="slect" id="select">
+                    <option value="Cel">&#8451</option>
+                    <option value="Far">&#8457</option>
+                    <option value="Kel">&#8490</option>
+                </select>
+            </form>
+            <h4>Convert In</h4>
+            <select class="select" id="slect">
+                <option value="Cel">Celsius (&#8451)</option>
+                <option value="Far">Farenhiet (&#8457)</option>
+                <option value="Kel">Kelvin (&#8490)</option>
+            </select>
+            <button class="convert" onclick="Check()">Convert</button>
+        </div>
+        <div class="result">
+            <h1 id="result">32&#8457</h1>
+        </div>
+     </div>
+       
+     <script src="../JS/result.js"></script>
+</body>
+</html>
